@@ -1,16 +1,12 @@
 /* Add this to your CSS file or style tag */
 
-body {
-    font-family: 'Merriweather', sans-serif;
-}
-
 .container {
     background: rgb(58, 95, 180);
     background: linear-gradient(50deg, rgba(58, 95, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
 input[type="text"] {
-    font-family: unset;
+    font-family: "Poppins", sans-serif;
     background-color: #ffffffa5;
     width: 450px;
     height: 45px;
@@ -21,7 +17,6 @@ input[type="text"] {
 }
 
 input[type="password"] {
-    font-family: unset;
     background-color: #ffffffa5;
     width: 450px;
     height: 45px;
@@ -29,6 +24,7 @@ input[type="password"] {
     font-size: 17px;
     padding-left: 20px;
     border-style: none;
+    font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -40,7 +36,7 @@ input[type="password"] {
 }
 
 .my-button {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     box-shadow: 0px 2px 20px rgb(0, 0, 0);
     margin-top: 20px;
@@ -48,7 +44,7 @@ input[type="password"] {
     border-radius: 2px;
     background-color: rgba(255, 255, 255, 0.579);
     color: white;
-    width: 300px;
+    width: 350px;
     height: 60px;
     text-align: center;
     padding: 5px;
@@ -63,9 +59,11 @@ input[type="password"] {
     font-size: 15px;
     color: rgba(0, 0, 0, 0.534);
     font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .forget {
+    font-family: "Poppins", sans-serif;
     margin-left: 120px;
     font-style: italic;
     color: #000000a0
