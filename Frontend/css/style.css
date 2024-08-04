@@ -1,0 +1,78 @@
+/* Add this to your CSS file or style tag */
+
+body {
+    font-family: 'Merriweather', sans-serif;
+}
+
+.container {
+    background: rgb(58, 95, 180);
+    background: linear-gradient(50deg, rgba(58, 95, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+input[type="text"] {
+    font-family: unset;
+    background-color: #ffffffa5;
+    width: 450px;
+    height: 45px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    padding-left: 20px;
+    border-style: none;
+}
+
+input[type="password"] {
+    font-family: unset;
+    background-color: #ffffffa5;
+    width: 450px;
+    height: 45px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    padding-left: 20px;
+    border-style: none;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.my-button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    box-shadow: 0px 2px 20px rgb(0, 0, 0);
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.579);
+    color: white;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    padding: 5px;
+    border-style: none;
+}
+
+.my-button:hover {
+    background-color: #2438214e;
+}
+
+.remember {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.534);
+    font-family: sans-serif;
+}
+
+.forget {
+    margin-left: 120px;
+    font-style: italic;
+    color: #000000a0
+}
+
+svg {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
+}
