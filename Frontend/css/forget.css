@@ -1,0 +1,107 @@
+.container {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input[type="text"] {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 500px;
+    height: 64px;
+    border-style: none;
+    border-radius: 7px;
+    background-color: rgba(240, 248, 255, 0.459);
+    box-shadow: 0px 0px 15px black;
+    font-size: 17px;
+}
+
+input[type="password"] {
+    padding-left: 13px;
+    margin-top: 10px;
+    width: 500px;
+    height: 64px;
+    border-style: none;
+    border-radius: 7px;
+    background-color: rgba(240, 248, 255, 0.459);
+    box-shadow: 0px 0px 15px black;
+    font-size: 17px;
+}
+
+.title {
+    color: rgba(0, 0, 0, 0.784);
+    margin-bottom: 80px;
+    margin-right: 220px;
+    font-size: 45px;
+    font-family: Arial;
+    background-color: rgba(240, 255, 255, 0.336);
+    padding: 9px;
+    border-style: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.pass {
+    margin-top: 40px;
+    width: 250px;
+    height: 57px;
+    border-radius: 4px;
+    border-style: none;
+    box-shadow: 0px 0px 10px wheat;
+    background-color: rgba(245, 222, 179, 0.592);
+    color: rgba(51, 46, 46, 0.901);
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 20px;
+    background: white;
+    font-size: 28px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 1s;
+    &:after,
+    &:before {
+        content: " ";
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border: 0px solid #fff;
+        transition: all 1s;
+    }
+    &:after {
+        top: -1px;
+        left: -1px;
+        border-top: 5px solid black;
+        border-left: 5px solid black;
+    }
+    &:before {
+        bottom: -1px;
+        right: -1px;
+        border-bottom: 5px solid black;
+        border-right: 5px solid black;
+    }
+}
+
+.pass:hover {
+    background-color: #ffffff87;
+}
+
+.go-back {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(240, 255, 255, 0.596);
+    margin-top: 30px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 4px;
+    color: black;
+    font-size: 13px;
+    padding: 5px;
+    text-decoration: none;
+}
